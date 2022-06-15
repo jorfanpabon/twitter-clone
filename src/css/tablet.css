@@ -1,0 +1,20 @@
+
+.container__signup{
+    display: flex;
+    flex-direction: row;
+}
+
+.bg__twitter{
+    width: 60%;
+    height: auto;
+    min-width: 400px;
+}
+
+.bg__icon{
+    max-width: 350px;
+}
+
+.signup--options{
+    padding: 40px;
+    width: 50%;
+}
