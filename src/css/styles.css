@@ -45,14 +45,17 @@ body{
     align-items: center;
     width: 100%;
     height: 400px;
-    background-image: url('/src/img/bg-twitter.png');
+    background-image: url('https://dfgi88q0dohf4.cloudfront.net/bg-twitter.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bg__icon{
-    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
 }
 
 .icon__bg--twitter{
@@ -172,10 +175,19 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 1rem;
-    color: var(--primary);
     background-color: #000000;
     cursor: pointer;
     border: 1px solid var(--s2);
+    transition: 0.2s ease-out;
+}
+
+.btn__signin:hover{
+    background-color: #010f19;
+    transition: 0.2s ease-in;
+}
+
+.btn__signin a{
+    color: var(--primary);
 }
 
 .container__footer{

@@ -11,7 +11,8 @@
 }
 
 .bg__icon{
-    max-width: 350px;
+    width: 350px;
+    height: 350px;
 }
 
 .signup--options{
